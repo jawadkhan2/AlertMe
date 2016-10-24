@@ -4,7 +4,7 @@ setup(
 	name='alertme',
 	description='Python command line tool that sends email when your script finishes running or has an error',
 	version='0.1.0',
-	url='http://github.com/ChandranshuRao14/alertme/',
+	url='http://github.com/ChandranshuRao14/AlertMe/',
 	packages=['alertme'],
 	scripts=['bin/alertme'],
 	author='Chandranshu Rao',
