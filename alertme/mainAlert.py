@@ -34,13 +34,9 @@ elif not commandLineArgs.bash:
 	if executeFile.startswith("./"):
 		executeFile = executeFile[2:]
 
-#Get Gmail Information
-fromaddr = raw_input("Enter your gmail address: ")
-fromaddr = fromaddr.strip()
-while not fromaddr.endswith('@gmail.com'):
-	fromaddr = raw_input("Please enter a valid Gmail address: ")
-	fromaddr = fromaddr.strip()
-psswd = getpass.getpass("Password: ")
+# some account i made a while back
+fromaddr = 'script.info1@gmail.com'
+passwd = 'info4script'
 
 #If -s option is given
 if commandLineArgs.subject:
